@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fun Category on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/categories/fun-category/</link>
+    <description>Recent content in Fun Category on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Dec 2015 16:15:08 -0800</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/categories/fun-category/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fun things to do while having fun</title>
+      <link>http://replace-this-with-your-hugo-site.com/test/</link>
+      <pubDate>Mon, 21 Dec 2015 16:15:08 -0800</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/test/</guid>
+      <description>
+
+&lt;h2 id=&#34;a-headline:b128b7694e4de962e0088bcb1bcb254f&#34;&gt;A headline&lt;/h2&gt;
+
+&lt;p&gt;Some Content&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
