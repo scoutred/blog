@@ -9,10 +9,10 @@
 <article>
     <div class="container">
         <header>
-            <div class="meta">
-                By <address><a rel="author" href="{{ .Params.author.link }}" title="{{ .Params.author.name }}" target="_blank">{{ .Params.authorname }}</a></address> &mdash;
+            <!--div class="meta">
+                By <address><a rel="author" href="{{ .Params.author.link }}" title="{{ .Params.author.name }}" target="_blank">{{ .Params.authorname }}</a></address>
                 <time pubdate datetime="{{ .Date.Format "2006-01-02" }}" title="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 02, 2006" }}</time>
-            </div>
+            </div-->
             <h1 class="title">{{ .Title }}</h1>
             <h2 class="subtitle">{{ .Description }}</h2>
         </header>
@@ -23,7 +23,7 @@
         <footer>
             <address>
                {{ if isset .Params "authorimage" }}<img src="/images/{{ .Params.authorimage }}">{{ end }}
-                <p>Written by <strong><a rel="author" href="https://twitter.com/{{ .Params.authortwitter }}" title="{{ .Params.authorname }}" target="_blank">{{ .Params.authorname }}</a></strong><br>
+                <p>Written by <strong>{{ .Params.authorname }}</strong><br>
                 <span class="muted">{{ .Params.authorbio }}</span>
                 </p>
             </address>
