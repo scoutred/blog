@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updates &mdash; </title>
+    
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="shortcut icon" href="https://scoutred.com/static/shortcut-icons/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://scoutred.com/static/shortcut-icons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://scoutred.com/static/shortcut-icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://scoutred.com/static/shortcut-icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://scoutred.com/static/shortcut-icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://scoutred.com/static/shortcut-icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://scoutred.com/static/shortcut-icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://scoutred.com/static/shortcut-icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://scoutred.com/static/shortcut-icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://scoutred.com/static/shortcut-icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://scoutred.com/static/shortcut-icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://scoutred.com/static/shortcut-icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://scoutred.com/static/shortcut-icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://scoutred.com/static/shortcut-icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://scoutred.com/static/shortcut-icons/favicon-16x16.png">
+
+    <link href="http://blog.scoutred.com/index.xml" rel="alternate" type="application/rss+xml" title="Updates" />
+
+    <meta name="title" content="http://blog.scoutred.com">
+    <link rel="canonical" href="http://blog.scoutred.com">
+    <meta property="og:title" content="Updates"/>
+    <meta property="og:url" content="http://blog.scoutred.com"/>
+    <meta property="og:image" content="http://blog.scoutred.com/images/logo.png"/>   
+    <meta property="og:site_name" content="Updates">
+</head>
+<body>
+<section class="site-nav">
+    <header>
+        <nav id="navigation">
+            <a class="brand" href="https://scoutred.com/">
+                <strong>Scout<span style="color:#f00">RED</span></strong>
+            </a>
+            <a href="/" class="home">Blog</a>
+            <a href="https://scoutred.com/">Product</a>
+            
+        </nav>
+        <nav class="tagline">
+            <span>Parcel data search</span>
+            <a href="https://scoutred.com/" class="btn btn-outline">Learn More</a>
+        </nav>
+    </header>
+</section>
+
+<article>
+    <div class="container">
+        <header>
+            
+            <h1 class="title">Technical overhaul</h1>
+            <h2 class="subtitle"></h2>
+        </header>
+        <section>
+            
+
+<p>This release has been a major technical overhaul. Initially we started an effort to support various overlay zones that can modify the available uses of real estate. As we worked through the various datasets, it was clear that our database schema was not going to scale, while maintaining the performance users of ScoutRED have come to expect. It has been a large effort, but we&rsquo;re quite happy with the results.</p>
+
+<h2 id="new-features:8c586e1d5562ab883049f0c8157d4bb5">New features</h2>
+
+<ul>
+<li>Owner&rsquo;s information is back! We had to pull owner&rsquo;s informaiton for awhile as we worked with SanGIS on how best to provide the data while maintaining a level of privacy for owners. In order to see owner information you will now need to create an account on ScoutRED. Creating an account is free, and only requires a valid email address.</li>
+<li>Layers visualized. This release comes with numerous new data sets (see below) of which we now also have map views. Clicking on community plans, zoning codes, and overlay zones will navigate you to full page views for each layer. These views have additional details about the layers, external links when applicable (i.e. muncipal code PDFs or web site references), and a map representation of the layer. Additionally, you can zoom in on any layer and at certain zoom levels we will start populating parcel lines. This is helpful if you&rsquo;re looking for parcels within certain layers.</li>
+</ul>
+
+<h2 id="new-datasets:8c586e1d5562ab883049f0c8157d4bb5">New datasets</h2>
+
+<ul>
+<li>Added City of Carlsbad zoning.</li>
+<li>Added City and County of San Diego overlay zones:
+
+<ul>
+<li>Airport Approach</li>
+<li>Airport Influence Area (AIA)</li>
+<li>Castal Height Limit</li>
+<li>Coastal (City)</li>
+<li>Parking Impact</li>
+<li>Residential Tandem Parking</li>
+<li>Sensitive Coastal</li>
+<li>Transit Area</li>
+<li>Urban Village</li>
+</ul></li>
+</ul>
+
+<h2 id="improvements:8c586e1d5562ab883049f0c8157d4bb5">Improvements</h2>
+
+<ul>
+<li>Panning the map repopulates the neighbor lot lines when zoomed in.</li>
+<li>Filtered down zoning variations when multiple cases exist. If a zoning record has variations based on lot size (i.e. greater than 10,000, less than 30,000, we filter to the applicable sub record of the zoning record.</li>
+<li>Set a zoom max to avoid zooming in beyond available satellite imagery.</li>
+</ul>
+
+            
+
+        </section>
+        <footer>
+            <address>
+               
+                <p>Written by <strong>Alexander Rolek</strong><br>
+                <span class="muted"></span>
+                </p>
+            </address>
+        </footer>
+        
+    </div>
+</article>
+<footer class="site-footer">
+    <div class="container">
+        <nav>
+            <a href="https://scoutred.com/">ScoutRED</a> &middot;
+            <a href="/">Blog</a> &middot;
+            <a href="https://scoutred.com/">Product</a> &middot; 
+            
+        </nav>
+        <nav class="social">
+            
+            
+                
+            <a href="/index.xml" title="RSS Feed">
+                <i class="icon icon-rss black"></i>
+            </a>
+        </nav>
+    </div>
+</footer>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
