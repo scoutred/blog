@@ -1,6 +1,6 @@
 +++
 title = "Parcel Scouting"
-date = "2015-12-28T16:15:08-08:00"
+date = "2015-12-21T16:15:08-08:00"
 draft = false
 
 authorname = "Alexander Rolek"

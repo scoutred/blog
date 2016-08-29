@@ -5,21 +5,24 @@ theme = "hugo-incorporated"
 [params]
 
 	[params.inc]
-		# Blog Information
-		title = "Updates"
-		# subtitle = "Modern Hugo based blog for companies"
-		cover_image = "blog-cover.jpg"
-		logo = "logo.png"
+	# Blog Information
+	title = "Progress"
+	subtitle = "Because we're always improving"
+	cover_image = "blog-cover.jpg"
+	logo = "logo.png"
 
-		# Company information
-		company = "ScoutRED"
-		url = "https://scoutred.com/"
-		# facebook =    ""
-		# github =      "scoutred"
-		# twitter =     nw_iw
-		# gplus =       ''
-		# about_link =  http://nilproductions.com/about/
+	# Company information
+	company = "ScoutRED"
+	url = "https://scoutred.com/"
+	# facebook =    ""
+	# github =      "scoutred"
+	# twitter =     nw_iw
+	# gplus =       ''
+	# about_link =  http://nilproductions.com/about/
 
-		# Product Information
-		product_link = "https://scoutred.com/"
-		tagline = "Parcel data search"
+	# Product Information
+	product_link = "https://scoutred.com/"
+	tagline = "Land use search"
+
+	[params.inc.analytics]
+	googleid = "UA-51537973-2"

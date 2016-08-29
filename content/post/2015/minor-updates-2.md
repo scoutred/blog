@@ -1,6 +1,6 @@
 +++
 title = "Minor updates"
-date = "2015-12-25T16:15:08-08:00"
+date = "2015-09-01T16:15:08-08:00"
 draft = false
 
 authorname = "Alexander Rolek"

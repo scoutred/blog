@@ -1,6 +1,6 @@
 +++
 title = "GPS. It's such a beautiful thing"
-date = "2015-12-27T16:15:08-08:00"
+date = "2015-10-06T16:15:08-08:00"
 draft = false
 
 authorname = "Alexander Rolek"
