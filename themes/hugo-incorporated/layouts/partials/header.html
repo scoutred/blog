@@ -4,12 +4,11 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        {{ .Site.Params.inc.title }} &mdash; 
         {{if .Title}}
             {{.Title}}
         {{else}}
             {{.Site.Params.inc.subtitle}}
-        {{end}}
+        {{end}} - ScoutRED
     </title>
     {{ with .Site.Params.inc.google_font }}
         <link href="https://fonts.googleapis.com/css?family={{ . }}" rel="stylesheet" type="text/css">
