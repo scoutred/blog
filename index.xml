@@ -6,8 +6,44 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Jul 2016 16:15:08 -0800</lastBuildDate>
+    <lastBuildDate>Sun, 28 Aug 2016 16:15:08 -0800</lastBuildDate>
     <atom:link href="http://blog.scoutred.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AutoCAD and KML downloads for parcel lot lines</title>
+      <link>http://blog.scoutred.com/post/2016/autocad-and-kml-downloads-for-parcel-lot-lines/</link>
+      <pubDate>Sun, 28 Aug 2016 16:15:08 -0800</pubDate>
+      
+      <guid>http://blog.scoutred.com/post/2016/autocad-and-kml-downloads-for-parcel-lot-lines/</guid>
+      <description>&lt;p&gt;Working with large geospatial datasets can be cumbersome and time consuming, especially when you only need a subset of the data for a presentation or to start a new project. Loading gigabytes of data into GIS programs, familiarizing yourself with the dataset then zooming and clipping the outlines can take hours of your work day. Alternatively you can pull a parcel map and then trace the target parcel and the surrounding area, or you can use ScoutRED&amp;rsquo;s new parcel lot line download feature.&lt;/p&gt;
+
+&lt;p&gt;Today we&amp;rsquo;re releasing parcel polygon exports for both AutoCAD and Google KML formats. Both downloads are premium features included when a parcel is unlocked either ad hoc or with a monthly subscription. The AutoCAD workflow is especially nice. Here&amp;rsquo;s how it goes:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;Navigate to a parcel&amp;rsquo;s profile page and then scroll down to the &amp;ldquo;Parcel lot line downloads&amp;rdquo; section. Once the parcel has been unlocked, the section will look like the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.scoutred.com/images/2016/autocad-and-kml-downloads-for-parcel-lot-lines/polygon-download.png&#34; alt=&#34;Parcel lot line downloads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Click &amp;ldquo;Download DXF&amp;rdquo; and then open the file.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Inside of autocad type &amp;ldquo;z&amp;rdquo; for zoom and hit enter, then type &amp;ldquo;e&amp;rdquo; for extent and then hit enter. You should now be looking at the generated parcel lot lines.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://blog.scoutred.com/images/2016/autocad-and-kml-downloads-for-parcel-lot-lines/autocad-screen-shot.png&#34; alt=&#34;Parcel lot line downloads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A few details to note:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The target parcel will be highlighted in red for convenience.&lt;/li&gt;
+&lt;li&gt;The scale is in feet which is great for figuring out lot dimensions&lt;/li&gt;
+&lt;li&gt;This is all official data from government GIS departments, but the data is not a replacement for a proper survey.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If you would like to download an example AutoCAD export, &lt;a href=&#34;https://cdn.scoutred.com/web-static/download/examples/parcel-id-923640.dxf&#34;&gt;click here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I hope you enjoy the new feature. If you have any questions or comments, don&amp;rsquo;t hesitate to reach out: &lt;a href=&#34;mailto:hello@scoutred.com&#34;&gt;hello@scoutred.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Professional Plans</title>
