@@ -7,7 +7,7 @@ theme = "hugo-incorporated"
 	[params.inc]
 	# Blog Information
 	title = "Progress"
-	subtitle = "Because we're always improving"
+	subtitle = "Always be improving"
 	cover_image = "blog-cover.jpg"
 	logo = "logo.png"
 

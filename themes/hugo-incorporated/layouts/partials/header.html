@@ -3,7 +3,14 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ .Site.Params.inc.title }} &mdash; {{ .Site.Params.inc.subtitle }}</title>
+    <title>
+        {{ .Site.Params.inc.title }} &mdash; 
+        {{if .Title}}
+            {{.Title}}
+        {{else}}
+            {{.Site.Params.inc.subtitle}}
+        {{end}}
+    </title>
     {{ with .Site.Params.inc.google_font }}
         <link href="https://fonts.googleapis.com/css?family={{ . }}" rel="stylesheet" type="text/css">
     {{ end }}
@@ -25,7 +32,7 @@
     <link rel="icon" type="image/png" sizes="96x96" href="https://scoutred.com/static/shortcut-icons/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="https://scoutred.com/static/shortcut-icons/favicon-16x16.png">
 
-    <link href="{{ .Site.BaseURL }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Params.inc.title }}" />
+    <link href="{{.Site.BaseURL}}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Params.inc.title }}" />
 
     <meta name="title" content="{{ .Site.BaseURL }}">
     <link rel="canonical" href="{{ .Site.BaseURL }}">
