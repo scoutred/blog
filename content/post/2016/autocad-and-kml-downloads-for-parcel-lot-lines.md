@@ -16,7 +16,7 @@ Today we're releasing parcel polygon exports for both AutoCAD and Google KML for
 
 2. Click "Download DXF" and then open the file.
 
-3. Inside of autocad type "z" for zoom and hit enter, then type "e" for extent and then hit enter. You should now be looking at the generated parcel lot lines. 
+3. Inside of AutoCAD type "z" for zoom and hit enter, then type "e" for extent and then hit enter. You should now be looking at the generated parcel lot lines. 
 
 	![Parcel lot line downloads](/images/2016/autocad-and-kml-downloads-for-parcel-lot-lines/autocad-screen-shot.png)
 
