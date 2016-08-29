@@ -6,37 +6,26 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Dec 2015 16:15:08 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jul 2016 16:15:08 -0800</lastBuildDate>
     <atom:link href="http://blog.scoutred.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Parcel Scouting</title>
-      <link>http://blog.scoutred.com/post/2015/parcel-scouting/</link>
-      <pubDate>Mon, 28 Dec 2015 16:15:08 -0800</pubDate>
+      <title>Professional Plans</title>
+      <link>http://blog.scoutred.com/post/2016/professional-plans/</link>
+      <pubDate>Thu, 28 Jul 2016 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/parcel-scouting/</guid>
-      <description>&lt;p&gt;Millions of parcels and no way to save them, until now. Today we&amp;rsquo;re excited to release a way to collect parcels for easy future lookup. We call it &amp;ldquo;Scouting&amp;rdquo; and it all starts with the new Scout button on every parcel page:
-&lt;img src=&#34;https://d150undackpvv0.cloudfront.net/web-static/img/updates/updates-0.7.0-btn-scouted.png&#34; alt=&#34;scout button&#34; /&gt;&lt;/p&gt;
+      <guid>http://blog.scoutred.com/post/2016/professional-plans/</guid>
+      <description>&lt;p&gt;Since the beginning, ScoutRED has been a side project for me. In the software world side projects are a way to explore an interest and identify if there is a need. In this case my interest stemmed from combining my backgrounds in real estate development and software development. I recalled the issues I had around data research while doing land development in Colorado, Nevada and Arizona and I knew something like ScoutRED would have been an immense time saver.&lt;/p&gt;
 
-&lt;p&gt;To Scout a parcel, simply click the Scout button on any parcel page. The button text will change from &amp;ldquo;Scout&amp;rdquo; to &amp;ldquo;Scouted&amp;rdquo; and the parcel will be saved to your default &amp;ldquo;Scouted Parcels&amp;rdquo; collection. To remove the parcel, simply click the button again.&lt;/p&gt;
+&lt;p&gt;The goal of ScoutRED has always been to quickly generate parcel data profiles for high level analysis. There are lots of real estate portals, but few make it simple to lookup accurate land use data. After I released the first version of ScoutRED I was unsure what the response would be or who would use the service. Over the last year 10s of thousands of people have used ScoutRED from all walks of life. Originally I thought the service would only be useful for Architects, Planners and Real Estate Developers but now I  frequently exchange emails with government employees, solar companies and avocado farmers.&lt;/p&gt;
 
-&lt;p&gt;You can view your default collection by clicking on &amp;ldquo;Scouted Parcels&amp;rdquo; below the Scout button. The collection view will show you the addresses and APNs of all the parcels you have Scouted. Additionally there is a map view at the top of the page with all your Scouted parcels highlighted.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s now apparent that there&amp;rsquo;s demand for an easy way to wade through the ever evolving and vast parcel datasets. ScoutRED wants to continue taking this challenge in San Diego and eventually the other 3,144 counties and that make up the United States. In order to work towards this goal we need to evolve from side project status to a business that can support itself.&lt;/p&gt;
 
-&lt;p&gt;For now all registered ScoutRED users have a single collection, Scouted Parcels. If this feature is well received it can be expanded to allow for custom collection naming, improved parcel organization and more.&lt;/p&gt;
+&lt;p&gt;Today we&amp;rsquo;re releasing professional plans on ScoutRED. Professional plans will provide parcel details that many of you have accessed for free over the last year. Information such as zoning, overlays and community plans will remain freely available. Owner&amp;rsquo;s details and parcel lot line downloads are now going to require either unlocking the parcel or a monthly subscription.&lt;/p&gt;
 
-&lt;p&gt;Happy Scouting!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>GPS. It&#39;s such a beautiful thing</title>
-      <link>http://blog.scoutred.com/post/2015/gps-its-such-a-beautiful-thing/</link>
-      <pubDate>Sun, 27 Dec 2015 16:15:08 -0800</pubDate>
-      
-      <guid>http://blog.scoutred.com/post/2015/gps-its-such-a-beautiful-thing/</guid>
-      <description>&lt;p&gt;A GPS integration has been on our roadmap for quite awhile now and we&amp;rsquo;re excited it&amp;rsquo;s finally ready. If you&amp;rsquo;re in the field and need access to ScoutRED property data, simply open up ScoutRED on your mobile device and tap on the GPS icon located to the left of the search field. We will detect your location and move the map accordingly. Life in the field just got a whole lot nicer. ;-)&lt;/p&gt;
+&lt;p&gt;We have priced our subscription at $99 per month, which we belive should be easy to justify considering the amount of time ScoutRED will save you. With the support of our users we will be able to focus more time on improving ScoutRED in San Diego and expanding across the rest of the country.&lt;/p&gt;
 
-&lt;p&gt;Currently this feature is only available on mobile devices. If you think this would also be helpful on desktop versions of ScoutRED, &lt;a href=&#34;mailto:hello@scoutred.com&#34;&gt;let us know&lt;/a&gt;!&lt;/p&gt;
+&lt;p&gt;As always, we appreciate your feedback. If you have any questions please don&amp;rsquo;t hesitate to reach out to me directly,  &lt;a href=&#34;mailto:alex@scoutred.com&#34;&gt;alex@scoutred.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -87,18 +76,47 @@
     </item>
     
     <item>
-      <title>Minor updates</title>
-      <link>http://blog.scoutred.com/post/2015/minor-updates-2/</link>
-      <pubDate>Fri, 25 Dec 2015 16:15:08 -0800</pubDate>
+      <title>Parcel Scouting</title>
+      <link>http://blog.scoutred.com/post/2015/parcel-scouting/</link>
+      <pubDate>Mon, 21 Dec 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/minor-updates-2/</guid>
+      <guid>http://blog.scoutred.com/post/2015/parcel-scouting/</guid>
+      <description>&lt;p&gt;Millions of parcels and no way to save them, until now. Today we&amp;rsquo;re excited to release a way to collect parcels for easy future lookup. We call it &amp;ldquo;Scouting&amp;rdquo; and it all starts with the new Scout button on every parcel page:
+&lt;img src=&#34;https://d150undackpvv0.cloudfront.net/web-static/img/updates/updates-0.7.0-btn-scouted.png&#34; alt=&#34;scout button&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To Scout a parcel, simply click the Scout button on any parcel page. The button text will change from &amp;ldquo;Scout&amp;rdquo; to &amp;ldquo;Scouted&amp;rdquo; and the parcel will be saved to your default &amp;ldquo;Scouted Parcels&amp;rdquo; collection. To remove the parcel, simply click the button again.&lt;/p&gt;
+
+&lt;p&gt;You can view your default collection by clicking on &amp;ldquo;Scouted Parcels&amp;rdquo; below the Scout button. The collection view will show you the addresses and APNs of all the parcels you have Scouted. Additionally there is a map view at the top of the page with all your Scouted parcels highlighted.&lt;/p&gt;
+
+&lt;p&gt;For now all registered ScoutRED users have a single collection, Scouted Parcels. If this feature is well received it can be expanded to allow for custom collection naming, improved parcel organization and more.&lt;/p&gt;
+
+&lt;p&gt;Happy Scouting!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GPS. It&#39;s such a beautiful thing</title>
+      <link>http://blog.scoutred.com/post/2015/gps-its-such-a-beautiful-thing/</link>
+      <pubDate>Tue, 06 Oct 2015 16:15:08 -0800</pubDate>
+      
+      <guid>http://blog.scoutred.com/post/2015/gps-its-such-a-beautiful-thing/</guid>
+      <description>&lt;p&gt;A GPS integration has been on our roadmap for quite awhile now and we&amp;rsquo;re excited it&amp;rsquo;s finally ready. If you&amp;rsquo;re in the field and need access to ScoutRED property data, simply open up ScoutRED on your mobile device and tap on the GPS icon located to the left of the search field. We will detect your location and move the map accordingly. Life in the field just got a whole lot nicer. ;-)&lt;/p&gt;
+
+&lt;p&gt;Currently this feature is only available on mobile devices. If you think this would also be helpful on desktop versions of ScoutRED, &lt;a href=&#34;mailto:hello@scoutred.com&#34;&gt;let us know&lt;/a&gt;!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Improved neighbor functionality</title>
+      <link>http://blog.scoutred.com/post/2015/improved-neighbor-functionality/</link>
+      <pubDate>Thu, 01 Oct 2015 16:15:08 -0800</pubDate>
+      
+      <guid>http://blog.scoutred.com/post/2015/improved-neighbor-functionality/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;Removed owner&amp;rsquo;s name from property listings&lt;/li&gt;
-&lt;li&gt;Added legal description&lt;/li&gt;
-&lt;li&gt;Added subdivision name and map&lt;/li&gt;
-&lt;li&gt;Reworked entire parcel database so more neighbors are available in the map view&lt;/li&gt;
-&lt;li&gt;Added zoning for parcels in unincorporated areas. Building details (FAR, height limits, etc.) will be added soon&lt;/li&gt;
-&lt;li&gt;Added additional zoning information for zoning withing city limits&lt;/li&gt;
+&lt;li&gt;The bounding box of the map viewport is used to fetch the neighbors.&lt;/li&gt;
+&lt;li&gt;A maximum of 100 neighboring properties will be populated. This matters most when a property is large and the viewport is zoomed out. Loading in thousands of neighboring properties was resuluting in large amounts of data transfer and slowing down the map experience.&lt;/li&gt;
+&lt;li&gt;Hovering over neighboring properties will highlight them&lt;/li&gt;
+&lt;li&gt;Clicking on neighboring properties will take you to that property&amp;rsquo;s details&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -106,7 +124,7 @@
     <item>
       <title>Massive address and APN search improvement</title>
       <link>http://blog.scoutred.com/post/2015/massive-address-and-apn-search-improvement/</link>
-      <pubDate>Thu, 24 Dec 2015 16:15:08 -0800</pubDate>
+      <pubDate>Tue, 01 Sep 2015 16:15:08 -0800</pubDate>
       
       <guid>http://blog.scoutred.com/post/2015/massive-address-and-apn-search-improvement/</guid>
       <description>&lt;p&gt;To make property search easy and intuitive a lot has to be considered. We have two primary ways we want to associate property records: Assessor Parcel Number (APN) and Address. The APN is fairly straight forward as it has a certain number of digits. Addresses on the other hand are very complex.&lt;/p&gt;
@@ -121,16 +139,18 @@ There&amp;rsquo;s still a world of improvements we want to add to autocomplete, 
     </item>
     
     <item>
-      <title>Improved neighbor functionality</title>
-      <link>http://blog.scoutred.com/post/2015/improved-neighbor-functionality/</link>
-      <pubDate>Wed, 23 Dec 2015 16:15:08 -0800</pubDate>
+      <title>Minor updates</title>
+      <link>http://blog.scoutred.com/post/2015/minor-updates-2/</link>
+      <pubDate>Tue, 01 Sep 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/improved-neighbor-functionality/</guid>
+      <guid>http://blog.scoutred.com/post/2015/minor-updates-2/</guid>
       <description>&lt;ul&gt;
-&lt;li&gt;The bounding box of the map viewport is used to fetch the neighbors.&lt;/li&gt;
-&lt;li&gt;A maximum of 100 neighboring properties will be populated. This matters most when a property is large and the viewport is zoomed out. Loading in thousands of neighboring properties was resuluting in large amounts of data transfer and slowing down the map experience.&lt;/li&gt;
-&lt;li&gt;Hovering over neighboring properties will highlight them&lt;/li&gt;
-&lt;li&gt;Clicking on neighboring properties will take you to that property&amp;rsquo;s details&lt;/li&gt;
+&lt;li&gt;Removed owner&amp;rsquo;s name from property listings&lt;/li&gt;
+&lt;li&gt;Added legal description&lt;/li&gt;
+&lt;li&gt;Added subdivision name and map&lt;/li&gt;
+&lt;li&gt;Reworked entire parcel database so more neighbors are available in the map view&lt;/li&gt;
+&lt;li&gt;Added zoning for parcels in unincorporated areas. Building details (FAR, height limits, etc.) will be added soon&lt;/li&gt;
+&lt;li&gt;Added additional zoning information for zoning withing city limits&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
@@ -138,7 +158,7 @@ There&amp;rsquo;s still a world of improvements we want to add to autocomplete, 
     <item>
       <title>Minor updates</title>
       <link>http://blog.scoutred.com/post/2015/minor-updates/</link>
-      <pubDate>Tue, 22 Dec 2015 16:15:08 -0800</pubDate>
+      <pubDate>Sat, 01 Aug 2015 16:15:08 -0800</pubDate>
       
       <guid>http://blog.scoutred.com/post/2015/minor-updates/</guid>
       <description>&lt;ul&gt;
@@ -152,7 +172,7 @@ There&amp;rsquo;s still a world of improvements we want to add to autocomplete, 
     <item>
       <title>We&#39;re live!</title>
       <link>http://blog.scoutred.com/post/2015/were-live/</link>
-      <pubDate>Mon, 21 Dec 2015 16:15:08 -0800</pubDate>
+      <pubDate>Wed, 01 Jul 2015 16:15:08 -0800</pubDate>
       
       <guid>http://blog.scoutred.com/post/2015/were-live/</guid>
       <description>&lt;ul&gt;
