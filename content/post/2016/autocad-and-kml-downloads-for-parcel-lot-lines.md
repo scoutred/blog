@@ -23,9 +23,9 @@ Today we're releasing parcel polygon exports for both AutoCAD and Google KML for
 A few details to note:
 
   - The target parcel will be highlighted in red for convenience.
-  - The scale is in feet which is great for figuring out lot dimensions
+  - The scale is in feet which is great for figuring out lot dimensions.
   - This is all official data from government GIS departments, but the data is not a replacement for a proper survey.
 
-If you would like to download an example AutoCAD export, [click here](https://cdn.scoutred.com/web-static/download/examples/parcel-id-923640.dxf)
+If you would like to download an example AutoCAD export, [click here](https://cdn.scoutred.com/web-static/download/examples/parcel-id-923640.dxf).
 
 I hope you enjoy the new feature. If you have any questions or comments, don't hesitate to reach out: [hello@scoutred.com](mailto:hello@scoutred.com).
