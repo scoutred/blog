@@ -28,4 +28,4 @@ Now that we have a wealth of permit data we can start having some fun aggregatin
 - The number of housing units approved each week / month and where.
 - The total in permit fees being collected.
 
- If you're interested in some of the aggregate data for analysis or you have any feedback shoot me an email: [alex@scoutred.com](mailto:alex@scoutred.com).
+ If you're interested in some of the aggregate data for analysis or you have any feedback, shoot me an email: [alex@scoutred.com](mailto:alex@scoutred.com).
