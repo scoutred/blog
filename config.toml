@@ -6,8 +6,8 @@ theme = "hugo-incorporated"
 
 	[params.inc]
 	# Blog Information
-	title = "Progress"
-	subtitle = "Always be improving"
+	title = "ScoutRED"
+	subtitle = "Understand the landscape"
 	cover_image = "blog-cover.jpg"
 	logo = "logo.png"
 
@@ -15,8 +15,8 @@ theme = "hugo-incorporated"
 	company = "ScoutRED"
 	url = "https://scoutred.com?utm_source=blog&utm_medium=logo-click"
 	# facebook =    ""
-	# github =      "scoutred"
-	# twitter =     nw_iw
+	github =  "scoutred"
+	twitter = "scoutred_"
 	# gplus =       ''
 	# about_link =  http://nilproductions.com/about/
 
