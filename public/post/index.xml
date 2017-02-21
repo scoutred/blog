@@ -15,33 +15,33 @@
       <pubDate>Mon, 20 Feb 2017 16:15:08 -0800</pubDate>
       
       <guid>http://blog.scoutred.com/post/2017/permit-search/</guid>
-      <description>&lt;p&gt;As the ScoutRED user base has grown so have the requests for more data. Towards the end of 2016 it was apparent that permit data would be a valuable addition for many users, so we set out to make that happen. After several months of work we&amp;rsquo;re excited to finally release the beta version of our &lt;a href=&#34;https://scoutred.com/permits&#34;&gt;Permit Search&lt;/a&gt;. It&amp;rsquo;s fast, beautiful and full of over 300,000 permits from the City of San Diego from 2003 to present. For the first time all the permit data in Open DSD has been unlocked so it&amp;rsquo;s actually searchable. The permit scope, contractor, project, permit id, etc. are all available for lightening quick searching. Oh, and the data updates every week so it&amp;rsquo;s always fresh.&lt;/p&gt;
+      <description>&lt;p&gt;As the ScoutRED user base has grown so have the requests for more data. Towards the end of 2016 it was apparent that permit data would be a valuable addition for many users, so we set out to make that happen. After several months of work we&amp;rsquo;re excited to finally release the beta version of our &lt;a href=&#34;https://scoutred.com/permits&#34;&gt;Permit Search&lt;/a&gt;. It&amp;rsquo;s fast, beautiful and full of over 300,000 permits from the City of San Diego from 2003 to present. For the first time all the permit data in Open DSD has been unlocked so it&amp;rsquo;s actually searchable. The permit scope, contractor, project, permit id, etc. are all available for lightening-quick searching. Oh, and the data updates every week so it&amp;rsquo;s always fresh.&lt;/p&gt;
 
 &lt;p&gt;Searching through permit data can be used for all sorts of queries:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Discover construction projects within an area.&lt;/li&gt;
-&lt;li&gt;How active a certain contractor is.&lt;/li&gt;
-&lt;li&gt;Follow a project through from appliction, issuance to completion.&lt;/li&gt;
+&lt;li&gt;Identify contractor activity.&lt;/li&gt;
+&lt;li&gt;Follow a project from application to issuance through completion.&lt;/li&gt;
 &lt;li&gt;Find all Conditional Use Permits in an area.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you&amp;rsquo;re intested in this type of data, then &lt;a href=&#34;https://scoutred.com/permits&#34;&gt;give it a spin&lt;/a&gt; and let us konw what you think.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in this type of data, then &lt;a href=&#34;https://scoutred.com/permits&#34;&gt;give it a spin&lt;/a&gt; and let us know what you think.&lt;/p&gt;
 
 &lt;p&gt;Now a little bit about the tech journey.&lt;/p&gt;
 
-&lt;p&gt;A couple years ago the City of San Diego&amp;rsquo;s Development Services Department (DSD) released an API called &lt;a href=&#34;https://www.sandiego.gov/development-services/opendsd/developers&#34;&gt;Open DSD&lt;/a&gt;. It has a wealth of information available but as with many data APIs it&amp;rsquo;s a silo. When the API was first released I fired off a few requests to test the developer experience and honstely it was not what I was hoping for. The perforamce was slow, the documenation lacking and it did not support searching by Assessor Parcel Number (APN). All these factors drove me away from a direct integration with the API and therefore requiring me to replicate the entire database. So I shelved the project. Well, as I mentioned earlier the demand for permit data started to increase so I figured it was time to give this project another run.&lt;/p&gt;
+&lt;p&gt;A couple years ago the City of San Diego&amp;rsquo;s Development Services Department (DSD) released an API called &lt;a href=&#34;https://www.sandiego.gov/development-services/opendsd/developers&#34;&gt;Open DSD&lt;/a&gt;. It has a wealth of information available but as with many data APIs it&amp;rsquo;s a silo. When the API was first released I fired off a few requests to test the developer experience and honestly it was not what I was hoping for. The performance was slow, the documentation lacking and it did not support searching by Assessor Parcel Number (APN). All these factors drove me away from a direct integration with the API and therefore requiring me to replicate the entire database. So I shelved the project. Well, as I mentioned earlier the demand for permit data started to increase so I figured it was time to give this project another run.&lt;/p&gt;
 
-&lt;p&gt;The Open DSD API does not have any official API clients. After some searching around I found a couple open source attempts that had been made but reamined unfinished. With no other options available it was necessary to develop an API client for Open DSD from scratch. ScoutRED is built almost entirely on open source software and open data initiatives. Simply put, ScoutRED would not exist without the open source community, so I decided to open source our &lt;a href=&#34;https://github.com/scoutred/opendsd&#34;&gt;Open DSD Client API&lt;/a&gt; under the MIT License for anyone to use. This is our way of giving back to the community as well as establishing a precedent as we continue to develop inegrations.&lt;/p&gt;
+&lt;p&gt;The Open DSD API does not have any official API clients. After some searching around I found a couple open source attempts that had been made but remained unfinished. With no other options available it was necessary to develop an API client for Open DSD from scratch. ScoutRED is built almost entirely on open source software and open data initiatives. Simply put, ScoutRED would not exist without the open source community, so I decided to open source our &lt;a href=&#34;https://github.com/scoutred/opendsd&#34;&gt;Open DSD Client API&lt;/a&gt; under the MIT License for anyone to use. This is our way of giving back to the community as well as establishing a precedent as we continue to develop integrations.&lt;/p&gt;
 
-&lt;p&gt;Now that we have a wealth of permit data we can start having some fun aggregating and analyzing it. A couple interesting ideas come top of mind:&lt;/p&gt;
+&lt;p&gt;Now that we have a wealth of permit data we can start having some fun aggregating and analyzing it. A couple interesting ideas come to mind:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;The number of housing units approved each week / month and where.&lt;/li&gt;
 &lt;li&gt;The total in permit fees being collected.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;If you&amp;rsquo;re interested in some of the aggregate data for analysis or you have any feedback feel to shoot me an email: &lt;a href=&#34;mailto:alex@scoutred.com&#34;&gt;alex@scoutred.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re interested in some of the aggregate data for analysis or you have any feedback shoot me an email: &lt;a href=&#34;mailto:alex@scoutred.com&#34;&gt;alex@scoutred.com&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
