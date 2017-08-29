@@ -6,8 +6,35 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 20 Feb 2017 16:15:08 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 28 Aug 2017 16:15:08 -0800</lastBuildDate>
     <atom:link href="http://blog.scoutred.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Beautiful PDF Property Reports</title>
+      <link>http://blog.scoutred.com/post/2017/property-reports/</link>
+      <pubDate>Mon, 28 Aug 2017 16:15:08 -0800</pubDate>
+      
+      <guid>http://blog.scoutred.com/post/2017/property-reports/</guid>
+      <description>&lt;p&gt;After an extensive journey deep into the world of GIS, raster map rendering and PDF generation, I&amp;rsquo;m excited to announce v1.0 of ScoutRED&amp;rsquo;s beautiful PDF property reports!&lt;/p&gt;
+
+&lt;p&gt;In order to produce the property profiles ScoutRED users are use to, it&amp;rsquo;s necessary to manage a rather large GIS dataset. Often times it&amp;rsquo;s necessary to navigate through numerous pages for zoning maps, community plan details or review permits for a property. This is all straight forward on ScoutRED, but up until now there has not been an easy way to package up the ScoutRED experience into a nice clean report that can be take with you.&lt;/p&gt;
+
+&lt;p&gt;When designing the ScoutRED property report we had several goals:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Clean, simple, presentable.&lt;/strong&gt; We wanted to create a PDF report that is &amp;ldquo;client ready&amp;rdquo;. We kept the ScoutRED branding to a minimum and organized the report into a logical progression of information with accompanying map visuals that are both beautiful and professional.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Crisp satellite site imagery.&lt;/strong&gt; A high quality aerial map helps provide location context for a property. All our reports use retina satellite imagery so you have access to the highest quality aerials. Parcel and neighboring lot lines are superimposed on the aerials to provide a fantastic visual of the parcel&amp;rsquo;s surrounding area.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Beautiful context maps.&lt;/strong&gt; All zoning, community plans and overlays for a parcel come with beautiful maps so it&amp;rsquo;s easy to visualize what areas affect the target parcel.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Extensible.&lt;/strong&gt; This is v1.0 of our report, so we&amp;rsquo;re just getting started! As we expand our dataset our reports will continue to improve.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Sticking with our original promise, if you have previously unlocked a parcel you will inherit all future premium features on that parcel, including the new PDF property reports, at no additional charge. For our monthly subscribers, PDF reports are now available on all parcels for immediate download.&lt;/p&gt;
+
+&lt;p&gt;Interested in an example report? &lt;a href=&#34;https://cdn.scoutred.com/web-static/download/examples/parcel-id-969509.pdf&#34;&gt;Click here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you have any questions, comments or requsts shoot me an email: &lt;a href=&#34;mailto:alex@scoutred.com&#34;&gt;alex@scoutred.com&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Permits: City of San Diego</title>
