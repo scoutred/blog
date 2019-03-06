@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
         {{if .Title}}
-            {{.Title}}
+            {{.Title}} -
         {{else}}
             {{.Site.Params.inc.subtitle}}
-        {{end}} - ScoutRED
+        {{end}} Scoutred
     </title>
     {{ with .Site.Params.inc.google_font }}
         <link href="https://fonts.googleapis.com/css?family={{ . }}" rel="stylesheet" type="text/css">
@@ -44,15 +44,15 @@
 <section class="site-nav">
     <header>
         <nav id="navigation">
+            <img src="/images/scoutred-icon.svg" width="30" height="30" class="d-inline-block align-top">
             <a class="brand" href="{{ .Site.Params.inc.url }}">
-                <strong>Scout<span style="color:#f00">RED</span></strong>
+                <strong>Scoutred</strong>
             </a>
-            <a href="/" class="home">Updates</a>
-            {{ with .Site.Params.inc.about_link }}<a href="{{ . }}">About</a>{{ end }}
-        </nav>
-        <nav class="tagline">
-            {{ with .Site.Params.inc.tagline }}<span>{{ . }}</span>{{ end }}
-            {{ with .Site.Params.inc.product_link }}<a href="{{ . }}" class="btn btn-outline">Learn More</a>{{ end }}
+            <ul>
+                <li>{{ with .Site.Params.inc.pricing_link }}<a href="{{ . }}" class="right-link">PRICING</a> {{ end }}</li>
+                <li>{{ with .Site.Params.inc.signup_link }}<a href="{{ . }}" class="right-link">SIGN UP</a>{{ end }}</li>
+                <li>{{ with .Site.Params.inc.blog_link }}<a href="{{ . }}" class="right-link">BLOG</a>{{ end }}</li>
+            </ul>
         </nav>
     </header>
 </section>

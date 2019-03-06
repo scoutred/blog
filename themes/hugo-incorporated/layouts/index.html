@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<div class="blog-cover" style="background-image:url(/images/{{ .Site.Params.inc.cover_image }});">
+<!--div class="blog-cover" style="background-image:url(/images/{{ .Site.Params.inc.cover_image }});">
     <section>
         <div class="container">
             <h1>{{ .Site.Params.inc.title }}</h1>
@@ -19,7 +19,7 @@
             </a>
         </div>
     </section>
-</div>
+</div-->
 <article class="container">
     {{ range first 10 .Data.Pages }}
         {{ .Render "summary" }}
