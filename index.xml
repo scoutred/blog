@@ -2,283 +2,132 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>http://blog.scoutred.com/</link>
+    <link>http://updates.scoutred.com/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Aug 2017 16:15:08 -0800</lastBuildDate>
-    <atom:link href="http://blog.scoutred.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://updates.scoutred.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hello Los Angeles</title>
+      <link>http://updates.scoutred.com/post/2019/hello-los-angeles/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://updates.scoutred.com/post/2019/hello-los-angeles/</guid>
+      <description>Over the last several years Scoutred has been exclusive to San Diego County. San Diego is our home so it made sense for us to focus where we could connect with our users and understand their needs. I have consumed a fair amount of coffee meeting many of you, learning about your operations and understanding the pain points you deal with on a daily basis. Though Scoutred has evolved to address many of your requests, an important missing feature has been lingering until now: Scoutred in more markets.</description>
+    </item>
     
     <item>
       <title>Beautiful PDF Property Reports</title>
-      <link>http://blog.scoutred.com/post/2017/property-reports/</link>
+      <link>http://updates.scoutred.com/post/2017/property-reports/</link>
       <pubDate>Mon, 28 Aug 2017 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2017/property-reports/</guid>
-      <description>&lt;p&gt;After an extensive journey deep into the world of GIS, raster map rendering and PDF generation, I&amp;rsquo;m excited to announce v1.0 of ScoutRED&amp;rsquo;s beautiful PDF property reports!&lt;/p&gt;
-
-&lt;p&gt;In order to produce the property profiles ScoutRED users are use to, it&amp;rsquo;s necessary to manage a rather large GIS dataset. Often times it&amp;rsquo;s necessary to navigate through numerous pages for zoning maps, community plan details or review permits for a property. This is all straight forward on ScoutRED, but up until now there has not been an easy way to package up the ScoutRED experience into a nice clean report that can be take with you.&lt;/p&gt;
-
-&lt;p&gt;When designing the ScoutRED property report we had several goals:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Clean, simple, presentable.&lt;/strong&gt; We wanted to create a PDF report that is &amp;ldquo;client ready&amp;rdquo;. We kept the ScoutRED branding to a minimum and organized the report into a logical progression of information with accompanying map visuals that are both beautiful and professional.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Crisp satellite site imagery.&lt;/strong&gt; A high quality aerial map helps provide location context for a property. All our reports use retina satellite imagery so you have access to the highest quality aerials. Parcel and neighboring lot lines are superimposed on the aerials to provide a fantastic visual of the parcel&amp;rsquo;s surrounding area.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Beautiful context maps.&lt;/strong&gt; All zoning, community plans and overlays for a parcel come with beautiful maps so it&amp;rsquo;s easy to visualize what areas affect the target parcel.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Extensible.&lt;/strong&gt; This is v1.0 of our report, so we&amp;rsquo;re just getting started! As we expand our dataset our reports will continue to improve.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Sticking with our original promise, if you have previously unlocked a parcel you will inherit all future premium features on that parcel, including the new PDF property reports, at no additional charge. For our monthly subscribers, PDF reports are now available on all parcels for immediate download.&lt;/p&gt;
-
-&lt;p&gt;Interested in an example report? &lt;a href=&#34;https://cdn.scoutred.com/web-static/download/examples/parcel-id-969509.pdf&#34;&gt;Click here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions, comments or requsts shoot me an email: &lt;a href=&#34;mailto:alex@scoutred.com&#34;&gt;alex@scoutred.com&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2017/property-reports/</guid>
+      <description>After an extensive journey deep into the world of GIS, raster map rendering and PDF generation, I&amp;rsquo;m excited to announce v1.0 of ScoutRED&amp;rsquo;s beautiful PDF property reports!
+In order to produce the property profiles ScoutRED users are use to, it&amp;rsquo;s necessary to manage a rather large GIS dataset. Often times it&amp;rsquo;s necessary to navigate through numerous pages for zoning maps, community plan details or review permits for a property. This is all straight forward on ScoutRED, but up until now there has not been an easy way to package up the ScoutRED experience into a nice clean report that can be take with you.</description>
     </item>
     
     <item>
       <title>Permits: City of San Diego</title>
-      <link>http://blog.scoutred.com/post/2017/permit-search/</link>
+      <link>http://updates.scoutred.com/post/2017/permit-search/</link>
       <pubDate>Mon, 20 Feb 2017 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2017/permit-search/</guid>
-      <description>&lt;p&gt;As the ScoutRED user base has grown so have the requests for more data. Towards the end of 2016 it was apparent that permit data would be a valuable addition for many users, so we set out to make that happen. After several months of work we&amp;rsquo;re excited to finally release the beta version of our &lt;a href=&#34;https://scoutred.com/permits&#34;&gt;Permit Search&lt;/a&gt;. It&amp;rsquo;s fast, beautiful and full of over 300,000 permits from the City of San Diego from 2003 to present. For the first time all the permit data in Open DSD has been unlocked so it&amp;rsquo;s actually searchable. The permit scope, contractor, project, permit id, etc. are all available for lightening-quick searching. Oh, and the data updates every week so it&amp;rsquo;s always fresh.&lt;/p&gt;
-
-&lt;p&gt;Searching through permit data can be used for all sorts of queries:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Discover construction projects within an area.&lt;/li&gt;
-&lt;li&gt;Identify contractor activity.&lt;/li&gt;
-&lt;li&gt;Follow a project from application to issuance through completion.&lt;/li&gt;
-&lt;li&gt;Find all Conditional Use Permits in an area.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you&amp;rsquo;re interested in this type of data, then &lt;a href=&#34;https://scoutred.com/permits&#34;&gt;give it a spin&lt;/a&gt; and let us know what you think.&lt;/p&gt;
-
-&lt;p&gt;Now a little bit about the tech journey.&lt;/p&gt;
-
-&lt;p&gt;A couple years ago the City of San Diego&amp;rsquo;s Development Services Department (DSD) released an API called &lt;a href=&#34;https://www.sandiego.gov/development-services/opendsd/developers&#34;&gt;Open DSD&lt;/a&gt;. It has a wealth of information available but as with many data APIs it&amp;rsquo;s a silo. When the API was first released I fired off a few requests to test the developer experience and honestly it was not what I was hoping for. The performance was slow, the documentation lacking and it did not support searching by Assessor Parcel Number (APN). All these factors drove me away from a direct integration with the API and therefore requiring me to replicate the entire database. So I shelved the project. Well, as I mentioned earlier the demand for permit data started to increase so I figured it was time to give this project another run.&lt;/p&gt;
-
-&lt;p&gt;The Open DSD API does not have any official API clients. After some searching around I found a couple open source attempts that had been made but remained unfinished. With no other options available it was necessary to develop an API client for Open DSD from scratch. ScoutRED is built almost entirely on open source software and open data initiatives. Simply put, ScoutRED would not exist without the open source community, so I decided to open source our &lt;a href=&#34;https://github.com/scoutred/opendsd&#34;&gt;Open DSD Client API&lt;/a&gt; under the MIT License for anyone to use. This is our way of giving back to the community as well as establishing a precedent as we continue to develop integrations.&lt;/p&gt;
-
-&lt;p&gt;Now that we have a wealth of permit data we can start having some fun aggregating and analyzing it. A couple interesting ideas come to mind:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The number of housing units approved each week / month and where.&lt;/li&gt;
-&lt;li&gt;The total in permit fees being collected.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you&amp;rsquo;re interested in some of the aggregate data for analysis or you have any feedback, shoot me an email: &lt;a href=&#34;mailto:alex@scoutred.com&#34;&gt;alex@scoutred.com&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2017/permit-search/</guid>
+      <description>As the ScoutRED user base has grown so have the requests for more data. Towards the end of 2016 it was apparent that permit data would be a valuable addition for many users, so we set out to make that happen. After several months of work we&amp;rsquo;re excited to finally release the beta version of our Permit Search. It&amp;rsquo;s fast, beautiful and full of over 300,000 permits from the City of San Diego from 2003 to present.</description>
     </item>
     
     <item>
       <title>AutoCAD and KML downloads for parcel lot lines</title>
-      <link>http://blog.scoutred.com/post/2016/autocad-and-kml-downloads-for-parcel-lot-lines/</link>
+      <link>http://updates.scoutred.com/post/2016/autocad-and-kml-downloads-for-parcel-lot-lines/</link>
       <pubDate>Sun, 28 Aug 2016 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2016/autocad-and-kml-downloads-for-parcel-lot-lines/</guid>
-      <description>&lt;p&gt;Working with large geospatial datasets can be cumbersome and time consuming, especially when you only need a subset of the data for a presentation or to start a new project. Loading gigabytes of data into GIS programs, familiarizing yourself with the dataset then zooming and clipping the outlines can take hours of your work day. Alternatively you can pull a parcel map and then trace the target parcel and the surrounding area, or you can use ScoutRED&amp;rsquo;s new parcel lot line download feature.&lt;/p&gt;
-
-&lt;p&gt;Today we&amp;rsquo;re releasing parcel polygon exports for both AutoCAD and Google KML formats. Both downloads are premium features included when a parcel is unlocked either ad hoc or with a monthly subscription. The AutoCAD workflow is especially nice. Here&amp;rsquo;s how it goes:&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;Navigate to a parcel&amp;rsquo;s profile page and then scroll down to the &amp;ldquo;Parcel lot line downloads&amp;rdquo; section. Once the parcel has been unlocked, the section will look like the following:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.scoutred.com/images/2016/autocad-and-kml-downloads-for-parcel-lot-lines/polygon-download.png&#34; alt=&#34;Parcel lot line downloads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click the &amp;ldquo;DXF&amp;rdquo; button and then open the file.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Inside of AutoCAD type &amp;ldquo;z&amp;rdquo; for zoom and hit enter, then type &amp;ldquo;e&amp;rdquo; for extent and then hit enter. You should now be looking at the generated parcel lot lines.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;http://blog.scoutred.com/images/2016/autocad-and-kml-downloads-for-parcel-lot-lines/autocad-screen-shot.png&#34; alt=&#34;Parcel lot line downloads&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;A few details to note:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;The target parcel will be highlighted in red for convenience.&lt;/li&gt;
-&lt;li&gt;The scale is in feet which is great for figuring out lot dimensions.&lt;/li&gt;
-&lt;li&gt;This is all official data from government GIS departments, but the data is not a replacement for a proper survey.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;If you would like to download an example AutoCAD export, &lt;a href=&#34;https://cdn.scoutred.com/web-static/download/examples/parcel-id-923640.dxf&#34;&gt;click here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;I hope you enjoy the new feature. If you have any questions or comments, don&amp;rsquo;t hesitate to reach out: &lt;a href=&#34;mailto:hello@scoutred.com&#34;&gt;hello@scoutred.com&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2016/autocad-and-kml-downloads-for-parcel-lot-lines/</guid>
+      <description>Working with large geospatial datasets can be cumbersome and time consuming, especially when you only need a subset of the data for a presentation or to start a new project. Loading gigabytes of data into GIS programs, familiarizing yourself with the dataset then zooming and clipping the outlines can take hours of your work day. Alternatively you can pull a parcel map and then trace the target parcel and the surrounding area, or you can use ScoutRED&amp;rsquo;s new parcel lot line download feature.</description>
     </item>
     
     <item>
       <title>Professional Plans</title>
-      <link>http://blog.scoutred.com/post/2016/professional-plans/</link>
+      <link>http://updates.scoutred.com/post/2016/professional-plans/</link>
       <pubDate>Thu, 28 Jul 2016 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2016/professional-plans/</guid>
-      <description>&lt;p&gt;Since the beginning, ScoutRED has been a side project for me. In the software world side projects are a way to explore an interest and identify if there is a need. In this case my interest stemmed from combining my backgrounds in real estate development and software development. I recalled the issues I had around data research while doing land development in Colorado, Nevada and Arizona and I knew something like ScoutRED would have been an immense time saver.&lt;/p&gt;
-
-&lt;p&gt;The goal of ScoutRED has always been to quickly generate parcel data profiles for high level analysis. There are lots of real estate portals, but few make it simple to lookup accurate land use data. After I released the first version of ScoutRED I was unsure what the response would be or who would use the service. Over the last year 10s of thousands of people have used ScoutRED from all walks of life. Originally I thought the service would only be useful for Architects, Planners and Real Estate Developers but now I  frequently exchange emails with government employees, solar companies and avocado farmers.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s now apparent that there&amp;rsquo;s demand for an easy way to wade through the ever evolving and vast parcel datasets. ScoutRED wants to continue taking this challenge in San Diego and eventually the other 3,144 counties and that make up the United States. In order to work towards this goal we need to evolve from side project status to a business that can support itself.&lt;/p&gt;
-
-&lt;p&gt;Today we&amp;rsquo;re releasing professional plans on ScoutRED. Professional plans will provide parcel details that many of you have accessed for free over the last year. Information such as zoning, overlays and community plans will remain freely available. Owner&amp;rsquo;s details and parcel lot line downloads are now going to require either unlocking the parcel or a monthly subscription.&lt;/p&gt;
-
-&lt;p&gt;We have priced our subscription at $99 per month, which we belive should be easy to justify considering the amount of time ScoutRED will save you. With the support of our users we will be able to focus more time on improving ScoutRED in San Diego and expanding across the rest of the country.&lt;/p&gt;
-
-&lt;p&gt;As always, we appreciate your feedback. If you have any questions please don&amp;rsquo;t hesitate to reach out to me directly,  &lt;a href=&#34;mailto:alex@scoutred.com&#34;&gt;alex@scoutred.com&lt;/a&gt;.&lt;/p&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2016/professional-plans/</guid>
+      <description>Since the beginning, ScoutRED has been a side project for me. In the software world side projects are a way to explore an interest and identify if there is a need. In this case my interest stemmed from combining my backgrounds in real estate development and software development. I recalled the issues I had around data research while doing land development in Colorado, Nevada and Arizona and I knew something like ScoutRED would have been an immense time saver.</description>
     </item>
     
     <item>
       <title>Technical overhaul</title>
-      <link>http://blog.scoutred.com/post/2015/technical-overhaul/</link>
+      <link>http://updates.scoutred.com/post/2015/technical-overhaul/</link>
       <pubDate>Sat, 26 Dec 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/technical-overhaul/</guid>
-      <description>
-
-&lt;p&gt;This release has been a major technical overhaul. Initially we started an effort to support various overlay zones that can modify the available uses of real estate. As we worked through the various datasets, it was clear that our database schema was not going to scale, while maintaining the performance users of ScoutRED have come to expect. It has been a large effort, but we&amp;rsquo;re quite happy with the results.&lt;/p&gt;
-
-&lt;h2 id=&#34;new-features:8c586e1d5562ab883049f0c8157d4bb5&#34;&gt;New features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Owner&amp;rsquo;s information is back! We had to pull owner&amp;rsquo;s informaiton for awhile as we worked with SanGIS on how best to provide the data while maintaining a level of privacy for owners. In order to see owner information you will now need to create an account on ScoutRED. Creating an account is free, and only requires a valid email address.&lt;/li&gt;
-&lt;li&gt;Layers visualized. This release comes with numerous new data sets (see below) of which we now also have map views. Clicking on community plans, zoning codes, and overlay zones will navigate you to full page views for each layer. These views have additional details about the layers, external links when applicable (i.e. muncipal code PDFs or web site references), and a map representation of the layer. Additionally, you can zoom in on any layer and at certain zoom levels we will start populating parcel lines. This is helpful if you&amp;rsquo;re looking for parcels within certain layers.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;new-datasets:8c586e1d5562ab883049f0c8157d4bb5&#34;&gt;New datasets&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Added City of Carlsbad zoning.&lt;/li&gt;
-&lt;li&gt;Added City and County of San Diego overlay zones:
-
-&lt;ul&gt;
-&lt;li&gt;Airport Approach&lt;/li&gt;
-&lt;li&gt;Airport Influence Area (AIA)&lt;/li&gt;
-&lt;li&gt;Castal Height Limit&lt;/li&gt;
-&lt;li&gt;Coastal (City)&lt;/li&gt;
-&lt;li&gt;Parking Impact&lt;/li&gt;
-&lt;li&gt;Residential Tandem Parking&lt;/li&gt;
-&lt;li&gt;Sensitive Coastal&lt;/li&gt;
-&lt;li&gt;Transit Area&lt;/li&gt;
-&lt;li&gt;Urban Village&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;improvements:8c586e1d5562ab883049f0c8157d4bb5&#34;&gt;Improvements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Panning the map repopulates the neighbor lot lines when zoomed in.&lt;/li&gt;
-&lt;li&gt;Filtered down zoning variations when multiple cases exist. If a zoning record has variations based on lot size (i.e. greater than 10,000, less than 30,000, we filter to the applicable sub record of the zoning record.&lt;/li&gt;
-&lt;li&gt;Set a zoom max to avoid zooming in beyond available satellite imagery.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2015/technical-overhaul/</guid>
+      <description>This release has been a major technical overhaul. Initially we started an effort to support various overlay zones that can modify the available uses of real estate. As we worked through the various datasets, it was clear that our database schema was not going to scale, while maintaining the performance users of ScoutRED have come to expect. It has been a large effort, but we&amp;rsquo;re quite happy with the results.</description>
     </item>
     
     <item>
       <title>Parcel Scouting</title>
-      <link>http://blog.scoutred.com/post/2015/parcel-scouting/</link>
+      <link>http://updates.scoutred.com/post/2015/parcel-scouting/</link>
       <pubDate>Mon, 21 Dec 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/parcel-scouting/</guid>
-      <description>&lt;p&gt;Millions of parcels and no way to save them, until now. Today we&amp;rsquo;re excited to release a way to collect parcels for easy future lookup. We call it &amp;ldquo;Scouting&amp;rdquo; and it all starts with the new Scout button on every parcel page:
-&lt;img src=&#34;https://d150undackpvv0.cloudfront.net/web-static/img/updates/updates-0.7.0-btn-scouted.png&#34; alt=&#34;scout button&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To Scout a parcel, simply click the Scout button on any parcel page. The button text will change from &amp;ldquo;Scout&amp;rdquo; to &amp;ldquo;Scouted&amp;rdquo; and the parcel will be saved to your default &amp;ldquo;Scouted Parcels&amp;rdquo; collection. To remove the parcel, simply click the button again.&lt;/p&gt;
-
-&lt;p&gt;You can view your default collection by clicking on &amp;ldquo;Scouted Parcels&amp;rdquo; below the Scout button. The collection view will show you the addresses and APNs of all the parcels you have Scouted. Additionally there is a map view at the top of the page with all your Scouted parcels highlighted.&lt;/p&gt;
-
-&lt;p&gt;For now all registered ScoutRED users have a single collection, Scouted Parcels. If this feature is well received it can be expanded to allow for custom collection naming, improved parcel organization and more.&lt;/p&gt;
-
-&lt;p&gt;Happy Scouting!&lt;/p&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2015/parcel-scouting/</guid>
+      <description>Millions of parcels and no way to save them, until now. Today we&amp;rsquo;re excited to release a way to collect parcels for easy future lookup. We call it &amp;ldquo;Scouting&amp;rdquo; and it all starts with the new Scout button on every parcel page: To Scout a parcel, simply click the Scout button on any parcel page. The button text will change from &amp;ldquo;Scout&amp;rdquo; to &amp;ldquo;Scouted&amp;rdquo; and the parcel will be saved to your default &amp;ldquo;Scouted Parcels&amp;rdquo; collection.</description>
     </item>
     
     <item>
       <title>GPS. It&#39;s such a beautiful thing</title>
-      <link>http://blog.scoutred.com/post/2015/gps-its-such-a-beautiful-thing/</link>
+      <link>http://updates.scoutred.com/post/2015/gps-its-such-a-beautiful-thing/</link>
       <pubDate>Tue, 06 Oct 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/gps-its-such-a-beautiful-thing/</guid>
-      <description>&lt;p&gt;A GPS integration has been on our roadmap for quite awhile now and we&amp;rsquo;re excited it&amp;rsquo;s finally ready. If you&amp;rsquo;re in the field and need access to ScoutRED property data, simply open up ScoutRED on your mobile device and tap on the GPS icon located to the left of the search field. We will detect your location and move the map accordingly. Life in the field just got a whole lot nicer. ;-)&lt;/p&gt;
-
-&lt;p&gt;Currently this feature is only available on mobile devices. If you think this would also be helpful on desktop versions of ScoutRED, &lt;a href=&#34;mailto:hello@scoutred.com&#34;&gt;let us know&lt;/a&gt;!&lt;/p&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2015/gps-its-such-a-beautiful-thing/</guid>
+      <description>A GPS integration has been on our roadmap for quite awhile now and we&amp;rsquo;re excited it&amp;rsquo;s finally ready. If you&amp;rsquo;re in the field and need access to ScoutRED property data, simply open up ScoutRED on your mobile device and tap on the GPS icon located to the left of the search field. We will detect your location and move the map accordingly. Life in the field just got a whole lot nicer.</description>
     </item>
     
     <item>
       <title>Improved neighbor functionality</title>
-      <link>http://blog.scoutred.com/post/2015/improved-neighbor-functionality/</link>
+      <link>http://updates.scoutred.com/post/2015/improved-neighbor-functionality/</link>
       <pubDate>Thu, 01 Oct 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/improved-neighbor-functionality/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;The bounding box of the map viewport is used to fetch the neighbors.&lt;/li&gt;
-&lt;li&gt;A maximum of 100 neighboring properties will be populated. This matters most when a property is large and the viewport is zoomed out. Loading in thousands of neighboring properties was resuluting in large amounts of data transfer and slowing down the map experience.&lt;/li&gt;
-&lt;li&gt;Hovering over neighboring properties will highlight them&lt;/li&gt;
-&lt;li&gt;Clicking on neighboring properties will take you to that property&amp;rsquo;s details&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2015/improved-neighbor-functionality/</guid>
+      <description> The bounding box of the map viewport is used to fetch the neighbors. A maximum of 100 neighboring properties will be populated. This matters most when a property is large and the viewport is zoomed out. Loading in thousands of neighboring properties was resuluting in large amounts of data transfer and slowing down the map experience. Hovering over neighboring properties will highlight them Clicking on neighboring properties will take you to that property&amp;rsquo;s details  </description>
     </item>
     
     <item>
       <title>Massive address and APN search improvement</title>
-      <link>http://blog.scoutred.com/post/2015/massive-address-and-apn-search-improvement/</link>
+      <link>http://updates.scoutred.com/post/2015/massive-address-and-apn-search-improvement/</link>
       <pubDate>Tue, 01 Sep 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/massive-address-and-apn-search-improvement/</guid>
-      <description>&lt;p&gt;To make property search easy and intuitive a lot has to be considered. We have two primary ways we want to associate property records: Assessor Parcel Number (APN) and Address. The APN is fairly straight forward as it has a certain number of digits. Addresses on the other hand are very complex.&lt;/p&gt;
-
-&lt;p&gt;The problem with addresses is everyone types them in differently. A street name might be provided without an address. A road suffix might be typed incorrectly or omitted. One user may want to search by APN, another by address. The only effective way to work with these varying conditions is to provide a really amazing autocomplete. So we built one.&lt;/p&gt;
-
-&lt;p&gt;For those of you who have used the previous autocomplete, you will notice a dramatically improved experience. The search is easy to use and responsive. You&amp;rsquo;re provided with quick and accurate results that you can easily choose from as you type. With just over 1 million property records in our database we&amp;rsquo;re quite happy with the results.
-There&amp;rsquo;s still a world of improvements we want to add to autocomplete, but this version is so much better than what was preivously available it was time to release it.&lt;/p&gt;
-
-&lt;p&gt;Enjoy. ;-)&lt;/p&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2015/massive-address-and-apn-search-improvement/</guid>
+      <description>To make property search easy and intuitive a lot has to be considered. We have two primary ways we want to associate property records: Assessor Parcel Number (APN) and Address. The APN is fairly straight forward as it has a certain number of digits. Addresses on the other hand are very complex.
+The problem with addresses is everyone types them in differently. A street name might be provided without an address.</description>
     </item>
     
     <item>
       <title>Minor updates</title>
-      <link>http://blog.scoutred.com/post/2015/minor-updates-2/</link>
+      <link>http://updates.scoutred.com/post/2015/minor-updates-2/</link>
       <pubDate>Tue, 01 Sep 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/minor-updates-2/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Removed owner&amp;rsquo;s name from property listings&lt;/li&gt;
-&lt;li&gt;Added legal description&lt;/li&gt;
-&lt;li&gt;Added subdivision name and map&lt;/li&gt;
-&lt;li&gt;Reworked entire parcel database so more neighbors are available in the map view&lt;/li&gt;
-&lt;li&gt;Added zoning for parcels in unincorporated areas. Building details (FAR, height limits, etc.) will be added soon&lt;/li&gt;
-&lt;li&gt;Added additional zoning information for zoning withing city limits&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2015/minor-updates-2/</guid>
+      <description> Removed owner&amp;rsquo;s name from property listings Added legal description Added subdivision name and map Reworked entire parcel database so more neighbors are available in the map view Added zoning for parcels in unincorporated areas. Building details (FAR, height limits, etc.) will be added soon Added additional zoning information for zoning withing city limits  </description>
     </item>
     
     <item>
       <title>Minor updates</title>
-      <link>http://blog.scoutred.com/post/2015/minor-updates/</link>
+      <link>http://updates.scoutred.com/post/2015/minor-updates/</link>
       <pubDate>Sat, 01 Aug 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/minor-updates/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Click on municipality for random property.&lt;/li&gt;
-&lt;li&gt;Formatted APN numbers.&lt;/li&gt;
-&lt;li&gt;Cleaner looking addresses.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2015/minor-updates/</guid>
+      <description> Click on municipality for random property. Formatted APN numbers. Cleaner looking addresses.  </description>
     </item>
     
     <item>
       <title>We&#39;re live!</title>
-      <link>http://blog.scoutred.com/post/2015/were-live/</link>
+      <link>http://updates.scoutred.com/post/2015/were-live/</link>
       <pubDate>Wed, 01 Jul 2015 16:15:08 -0800</pubDate>
       
-      <guid>http://blog.scoutred.com/post/2015/were-live/</guid>
-      <description>&lt;ul&gt;
-&lt;li&gt;Database of all parcels in the county of San Diego.&lt;/li&gt;
-&lt;li&gt;Associated zoning where applicable for parcels within the city and county of San Diego.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <guid>http://updates.scoutred.com/post/2015/were-live/</guid>
+      <description> Database of all parcels in the county of San Diego. Associated zoning where applicable for parcels within the city and county of San Diego.  </description>
     </item>
     
   </channel>
