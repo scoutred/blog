@@ -35,7 +35,11 @@
     <link rel="canonical" href="{{ .Permalink }}">
     <meta property="og:title" content="{{ .Title }}"/>
     <meta property="og:url" content="{{ .Permalink}}"/>
-    <!--meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.inc.logo }}"/-->
+    {{if .Params.post_image}}
+        <meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Params.post_image }}"/>
+    {{else}}
+        <meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Site.Params.inc.logo }}"/>
+    {{end}}
     <meta property="og:site_name" content="{{ .Site.Params.inc.title }}">
 </head>
 <body>

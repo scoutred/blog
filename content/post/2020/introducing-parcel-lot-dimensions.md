@@ -3,6 +3,9 @@ title = "Introducing Parcel Lot Dimensions"
 date = "2020-04-10"
 draft = false
 
+# relative to the images/ folder
+post_image = "2020/introducing-parcel-lot-dimensions/lot-dimensions.png"
+
 authorname = "Alexander Rolek"
 +++
 
