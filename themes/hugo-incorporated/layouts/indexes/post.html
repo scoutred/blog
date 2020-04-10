@@ -5,7 +5,7 @@
 	</div>
 </article>
 <article class="container">
-	{{ range .Data.Pages }}
+	{{ range .Pages }}
 		{{ .Render "archive" }}
 	{{ end }}
 </article>
