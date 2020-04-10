@@ -1,4 +1,4 @@
-baseurl = "http://updates.scoutred.com"
+baseurl = "https://updates.scoutred.com"
 languageCode = "en-us"
 theme = "hugo-incorporated"
 
@@ -16,11 +16,11 @@ theme = "hugo-incorporated"
 	twitter = "scoutredhq"
 
 	# Product Information
-	pricing_link = "https://scoutred.com/pricing"
-	login_link = "https://scoutred.com/maps/auth/login"
-	signup_link = "https://scoutred.com/maps/auth/signUp"
+	pricing_link = "https://scoutred.com/pricing?utm_source=blog&utm_medium=pricing"
+	login_link = "https://scoutred.com/maps/auth/login?utm_source=blog&utm_medium=login"
+	signup_link = "https://scoutred.com/maps/auth/signUp?utm_source=blog&utm_medium=signup"
 	blog_link = "https://updates.scoutred.com/"
-	maps_link = "https://scoutred.com/maps"
+	maps_link = "https://scoutred.com/maps?utm_source=blog"
 	tagline = ""
 
 	[params.inc.analytics]
