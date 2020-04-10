@@ -1,4 +1,4 @@
-baseurl = "https://updates.scoutred.com"
+baseurl = "https://updates.scoutred.com/"
 languageCode = "en-us"
 theme = "hugo-incorporated"
 
