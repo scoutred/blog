@@ -4,7 +4,7 @@ theme = "hugo-incorporated"
 
 [params]
 	[params.inc]
-	title = "Scoutred"
+	title = "Scoutred Blog"
 	subtitle = ""
 	cover_image = "blog-cover.jpg"
 	logo = "logo.png"

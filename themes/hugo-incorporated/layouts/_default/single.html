@@ -26,11 +26,6 @@
                 <span class="muted">{{ .Params.authorbio }}</span>
             </p>
         </section>
-        {{ with .Site.Params.inc.disqus.shortname }}
-        <section>
-            {{ partial "_disqus.html" . }}
-        </section>
-        {{ end }}
     </div>
 </article>
 {{ partial "footer.html" . }}
