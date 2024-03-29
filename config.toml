@@ -3,6 +3,7 @@ languageCode = "en-us"
 theme = "hugo-incorporated"
 
 [params]
+
 	[params.inc]
 	title = "Scoutred Blog"
 	subtitle = ""
@@ -13,7 +14,6 @@ theme = "hugo-incorporated"
 	company = "Scoutred"
 	url = "https://scoutred.com?utm_source=blog&utm_medium=logo-click"
 	github =  "scoutred"
-	twitter = "scoutredhq"
 
 	# Product Information
 	pricing_link = "https://scoutred.com/pricing?utm_source=blog&utm_medium=pricing"
@@ -24,4 +24,4 @@ theme = "hugo-incorporated"
 	tagline = ""
 
 	[params.inc.analytics]
-	googleid = "UA-51537973-2"
+	googleid = "G-P83889C01L"

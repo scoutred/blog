@@ -5,9 +5,6 @@
             {{ with .Site.Params.inc.pricing_link }}<a href="{{ . }}">Pricing</a> &middot; {{ end }}
         </nav>
         <nav class="social">
-            {{ with .Site.Params.inc.twitter }}
-            <a href="https://twitter.com/{{ . }}" title="Follow on Twitter" target="_blank"><i class="icon icon-twitter black"></i></a>
-            {{ end }}
             {{ with .Site.Params.inc.github }}
             <a href="https://github.com/{{ . }}" title="Follow on Github" target="_blank"><i class="icon icon-github black"></i></a>
             {{ end }}
