@@ -1,27 +1,33 @@
 baseurl = "https://updates.scoutred.com/"
 languageCode = "en-us"
-theme = "hugo-incorporated"
+theme = "scoutred"
+title = "Scoutred Blog"
+
+[menus]
+    [[menus.main]]
+        name = 'Home'
+        pageRef = '/'
+        weight = 10
+
+[module]
+    [module.hugoVersion]
+        extended = false
+        min = '0.146.0'
 
 [params]
+    cover_image = "blog-cover.jpg"
+    logo = "logo.png"
 
-	[params.inc]
-	title = "Scoutred Blog"
-	subtitle = ""
-	cover_image = "blog-cover.jpg"
-	logo = "logo.png"
+    [params.company]
+        company = "Scoutred"
+        url = "https://scoutred.com?utm_source=blog&utm_medium=logo-click"
+        github = "scoutred"
 
-	# Company information
-	company = "Scoutred"
-	url = "https://scoutred.com?utm_source=blog&utm_medium=logo-click"
-	github =  "scoutred"
+    [params.product_links]
+        pricing = "https://scoutred.com/pricing?utm_source=blog&utm_medium=pricing"
+        login = "https://scoutred.com/maps/auth/login?utm_source=blog&utm_medium=login"
+        signup = "https://scoutred.com/maps/auth/signUp?utm_source=blog&utm_medium=signup"
+        maps = "https://scoutred.com/maps/?utm_source=blog"
 
-	# Product Information
-	pricing_link = "https://scoutred.com/pricing?utm_source=blog&utm_medium=pricing"
-	login_link = "https://scoutred.com/maps/auth/login?utm_source=blog&utm_medium=login"
-	signup_link = "https://scoutred.com/maps/auth/signUp?utm_source=blog&utm_medium=signup"
-	blog_link = "https://updates.scoutred.com/"
-	maps_link = "https://scoutred.com/maps?utm_source=blog"
-	tagline = ""
-
-	[params.inc.analytics]
-	googleid = "G-P83889C01L"
+    [params.analytics]
+        google_id = "G-P83889C01L"
