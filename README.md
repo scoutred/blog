@@ -4,10 +4,10 @@ This repo houses the Scoutred blog.
 
 ## Running locally
 
-This repository requires go-hugo. You can download a pre-built binary from [hugo's Github releases page](https://github.com/gohugoio/hugo/releases). Once hugo is installed, using terminal navigate to this repository's root and run the following:
+This repository requires [Docker](https://www.docker.com/products/docker-desktop/). Once Docker is installed, using terminal navigate to this repository's root and run the following:
 
 ```console
-hugo server --buildDrafts
+docker compose up
 ```
 
 ## Deployment

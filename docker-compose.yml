@@ -1,0 +1,20 @@
+name: scoutred_blog
+
+services:
+  hugo:
+    image: ghcr.io/gohugoio/hugo:v0.146.6
+    ports:
+      - 1313:1313
+    command: server --buildDrafts --bind="0.0.0.0"
+    volumes:
+      - .:/project
+
+  tailwindcss:
+    build:
+      dockerfile: ./docker/tailwindcss/Dockerfile
+    volumes:
+      - ./:/usr/src/app
+    command: -i themes/scoutred/layouts/tailwind.css -o themes/scoutred/assets/css/tailwind.css --watch --minify
+    # tty true is needed or the process will exit after first run
+    # with an exit code of 0. we want it to stay running
+    tty: true
