@@ -1,0 +1,6 @@
+@import "tailwindcss" source(".");
+@plugin '@tailwindcss/typography';
+
+@theme {
+    --color-scoutred: #cc1717;
+}

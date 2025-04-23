@@ -1,0 +1,12 @@
+<div class="mx-auto max-w-7xl px-6 py-12 md:flex md:items-center md:justify-between lg:px-8 flex">
+    <div class="flex-1 mt-8 text-sm/6 text-gray-400 md:order-1 md:mt-0">&copy; {{ time.Now | time.Format "2006" }}
+        Scoutred
+    </div>
+    <div class="flex-1 gap-x-6 md:order-2">
+        <div class="flex justify-end">
+            <a href="{{.Site.Params.product_links.maps}}" class="px-4 pt-1 text-sm font-medium text-gray-600 hover:text-gray-900">Maps</a>
+            <a href="{{.Site.Params.product_links.pricing}}" class="px-4 pt-1 text-sm font-medium text-gray-600 hover:text-gray-900">Pricing</a>
+            <a href="{{.Site.Params.product_links.signup}}" class="px-4 pt-1 text-sm font-medium text-gray-600 hover:text-gray-900">Signup</a>
+        </div>
+    </div>
+</div>

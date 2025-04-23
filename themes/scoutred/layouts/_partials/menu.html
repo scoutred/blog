@@ -1,0 +1,60 @@
+{{- /*
+Renders a menu for the given menu ID.
+
+@context {page} page The current page.
+@context {string} menuID The menu ID.
+
+@example: {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+*/}}
+
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+  <nav class="flex items-center border-b border-gray-200 bg-white h-16 mx-auto my-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex-1 shrink-0 flex">
+      <img class="h-8 w-auto" src="/images/scoutred-icon.svg" width="30" height="30" alt="Scoutred">
+      <div class="sm:-my-px sm:ml-6 sm:flex sm:space-x-8">
+        {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+      </div>  
+    </div>
+    <div class="flex flex-1 justify-end self-center">            
+      <a href="{{$page.Site.Params.product_links.maps}}" class="px-4 pt-1 text-sm font-medium text-gray-600 hover:text-gray-900">Maps</a>
+      <a href="{{$page.Site.Params.product_links.pricing}}" class="px-4 pt-1 text-sm font-medium text-gray-600 hover:text-gray-900">Pricing</a>
+      <a href="{{$page.Site.Params.product_links.signup}}" class="px-4 pt-1 text-sm font-medium text-gray-600 hover:text-gray-900">Signup</a>
+    </div>
+  </nav>
+
+{{- end }}
+
+{{- define "_partials/inline/menu/walk.html" }}
+  {{- $page := .page }}
+  {{- range .menuEntries }}
+    {{- $attrs := dict "href" .URL }}
+    {{- if $page.IsMenuCurrent .Menu . }}
+      {{- $attrs = merge $attrs (dict "class" "inline-flex items-center border-b-2 border-scoutred px-1 pt-1 text-sm font-medium text-gray-900" "aria-current" "page") }}
+    {{- else if $page.HasMenuCurrent .Menu .}}
+      {{- $attrs = merge $attrs (dict "class" "inline-flex items-center border-b-2 border-scoutred px-1 pt-1 text-sm font-medium text-gray-900" "aria-current" "true") }}
+    {{- else }}
+      {{- $attrs = merge $attrs (dict "class" "inline-flex items-center border-b-2 border-transparent px-1 pt-1 text-sm font-medium text-gray-500 hover:border-gray-300 hover:text-gray-700") }}
+    {{- end }}
+    {{- $name := .Name }}
+    {{- with .Identifier }}
+      {{- with T . }}
+        {{- $name = . }}
+      {{- end }}
+    {{- end }}
+      <a
+        {{- range $k, $v := $attrs }}
+          {{- with $v }}
+            {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+          {{- end }}
+        {{- end -}}
+      >{{ $name }}</a>
+      {{- with .Children }}
+        <ul>
+          {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+        </ul>
+      {{- end }}
+  {{- end }}
+{{- end }}
