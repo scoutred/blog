@@ -9,14 +9,6 @@ post_image = "2020/introducing-parcel-lot-dimensions/lot-dimensions.png"
 authorname = "Alexander Rolek"
 +++
 
-## COVID-19
-
-Before I get into this feature announcement I would like to take a moment and say that I hope everyone is staying safe and healthy during this chaotic time. COVID-19 has swept the world and it's been life-altering in so many ways. Beyond the physical threats associated with the virus, we're dealing with a massive mental shift and our lives will forever be impacted by the events of this pandemic. Our routines and habits have been disrupted and an entirely new normal is being defined. 
-
-It's tough to be optimistic during a time like this, but by nature I'm cautiously optimistic. I have considered that this event has opened the door to a subsequent renaissance. People are assessing their value hierarchy, determining what really matters to them while at the same time being very open to exploring new ideas. This event has shaken the world, but we will prevail, and on the other side I foresee a bright future where we will be more resilient, caring and open-minded.
-
-## Introducing parcel lot dimensions
-
 Parcel lot dimensions have been on our road map for quite a while. It's not a simple feature to build when all the nuances are considered, but I'm extremely happy with the results. We soft-launched the feature last week so some of you have already started playing with it. If you're a premium Scoutred user you will now see the length of each parcel line segment as shown in the following screen shot:
 
 ![Example lot dimensions](/images/2020/introducing-parcel-lot-dimensions/lot-dimensions.png)
@@ -39,6 +31,6 @@ For more details about Scoutred's premium features, check out our [pricing page]
 
 ## Scoutred API
 
-We have not officially launched our API, but have been building it behind the scenes. Parcel lot dimensions are available via our API as well as a bunch of other data APIs including search and vector tiles. We're going to be slowly opening up the API throughout 2020 so if you're interested in integrating with Scoutred's APIs please reach out to me at [alex@scoutred.com](mailto:alex@scoutred.com?subject=Scoutred%20API). 
+We have not officially launched our API, but have been building it behind the scenes. Parcel lot dimensions are available via our API as well as a bunch of other data APIs including search and vector tiles. If you're interested in integrating with Scoutred's APIs please reach out to me at [alex@scoutred.com](mailto:alex@scoutred.com?subject=Scoutred%20API). 
 
-Thanks again for exploring Scoutred with us and stay safe!
+Thanks for exploring Scoutred!
